@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Адрес твоего FastAPI сервера
-FASTAPI_URL = "http://18.156.158.53:10000/predict"  # <-- измени на адрес своего сервера, если нужно
+FASTAPI_URL = "https://fastapi-animal-classification-2.onrender.com/predict"  # <-- измени на адрес своего сервера, если нужно
 
 st.title("Классификация изображений")
 
